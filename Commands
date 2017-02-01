@@ -1,0 +1,20 @@
+Commands to Begin Create:
+> npm init
+> npm install express body-parser ejs mongojs --save
+
+To Run:
+> node server
+> npm install -g nodemon (global install nodemon so you don't have to restart server to see changes to webpages)
+> nodemon (run instead of node server)
+
+In client:
+> npm install
+
+> npm start
+
+In root:
+> npm install -g bower
+
+> bower install bootstrap --save
+
+> node server

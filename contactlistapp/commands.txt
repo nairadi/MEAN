@@ -1,0 +1,25 @@
+Root:
+> npm install express
+
+> node server
+
+Mongo->bin:
+> mongod
+
+//new prompt
+> mongo
+
+> use contactlist
+
+> db.contactlist.insert({name: 'Tom', email: 'tom@testemail.com', number: '(444) 444-4444'})
+
+> db.contactlist.find()
+
+> db.contactlist.find().prety()
+
+> db.contactlist.insert([{name: 'Tracy', email: 'tracy@testemail2.com, number: "(555) 555-5555"}, {name: 'Tucker', email: 'tucker@testemail3.com', number: "(777) 777-7777"}])
+
+Root:
+> npm install mongojs
+
+> npm install body-parser
